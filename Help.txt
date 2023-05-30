@@ -1,0 +1,178 @@
+Transport Management System
+
+
+
+
+Software Requirements:
+
+Visual Studio 2022
+Xampp server
+
+
+
+
+Installing Visual Studio
+
+
+To download Visual Studio, follow these steps:
+
+1. Visit the official Visual Studio website: 
+Go to the Visual Studio website at https://visualstudio.microsoft.com.
+
+2. Choose the edition: Visual Studio offers different editions, including the Community, Professional, and Enterprise editions. 
+Evaluate your needs and select the edition that suits you best. The Community edition is free and suitable for individual developers 
+or small teams working on open-source or non-commercial projects.
+
+3. Select the download option: Once you've chosen the edition, click on the "Download" button for that edition.
+
+4. Customize your installation (optional): Visual Studio provides customization options during installation. 
+You can select the components and workloads that you want to install. This allows you to include or exclude specific tools,
+ programming languages, frameworks, and extensions based on your requirements. If you're unsure, you can go with the default 
+installation options.
+
+5. Run the installer: After customizing (or choosing the default options), run the downloaded installer.
+
+6. Accept the license terms: Read and accept the license terms to proceed with the installation.
+
+7. Wait for the installation to complete: The installer will download the necessary files and install Visual Studio on your system. 
+The installation time may vary depending on your internet connection and the components you selected.
+
+8. Launch Visual Studio: Once the installation is complete, you can launch Visual Studio from the start menu or desktop shortcut.
+
+9. Sign in (optional): You will be prompted to sign in with your Microsoft account. Signing in allows you to access additional features
+ and services provided by Visual Studio, but it's optional.
+
+10. Start coding: With Visual Studio installed and launched, you're ready to start coding in your preferred programming language.
+
+
+Installing Angular JS:
+
+To install AngularJS, you can follow these steps:
+
+1. Download AngularJS: Visit the official AngularJS website at https://angularjs.org and click on the "Download" button. 
+You will be provided with options to download the latest stable version of AngularJS.
+
+2. Choose the distribution: AngularJS offers two distribution options: the uncompressed version for development 
+and the minified version for production. Choose the version that suits your needs. For development purposes, it's 
+recommended to download the uncompressed version.
+
+3. Include AngularJS in your project: Once you have downloaded the AngularJS file, you need to include it in your project. 
+You can either copy the AngularJS file to your project directory or use a Content Delivery Network (CDN) link in your HTML file.
+
+   a. If you downloaded the AngularJS file, you can include it in your HTML file using a script tag. 
+
+
+   b. If you prefer using a CDN, you can include the following script tag in your HTML file:
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+
+4. Add the "ng-app" directive: In your HTML file, add the "ng-app" directive to specify the root of your AngularJS application. 
+
+
+
+5. Start using AngularJS: You are now ready to use AngularJS in your project. You can start writing AngularJS code and utilize its features and directives to build dynamic web applications.
+
+   For example, you can create AngularJS controllers, directives, and templates to implement functionality and bind data to your HTML elements.
+
+Remember that AngularJS is a JavaScript framework, so you need to have a basic understanding of HTML, CSS, and JavaScript to effectively use AngularJS in your projects.
+
+
+Installing Xampp
+
+To install XAMPP (cross-platform Apache, MySQL, PHP, and Perl), follow these steps:
+
+1. Visit the Apache Friends website: Go to the official Apache Friends website at https://www.apachefriends.org.
+
+2. Download XAMPP: On the website's homepage, you will find the XAMPP download section. Select the version of XAMPP that is 
+compatible with your operating system (Windows, macOS, or Linux).
+
+3. Start the download: Click on the download link for the appropriate version of XAMPP. The download may take some time depending 
+on your internet speed.
+
+4. Run the installer: Once the download is complete, run the installer file that you downloaded.
+
+5. Choose components: During the installation process, you will be prompted to select the components you want to install. The core 
+components usually include Apache, MySQL, PHP, and phpMyAdmin. You can also select additional components or language bindings based on your 
+requirements.
+
+6. Select installation directory: Choose the directory where you want to install XAMPP. The default directory is usually fine, but you can 
+choose a different location if needed.
+
+7. Complete the installation: Proceed with the installation process by following the on-screen instructions. You may be asked to provide 
+certain configuration settings, such as the MySQL root password. Make sure to remember these settings as you will need them later.
+
+8. Start XAMPP: Once the installation is complete, launch XAMPP. On Windows, you can start XAMPP by running the 
+"XAMPP Control Panel" application. On macOS and Linux, you can start it from the terminal using the command `sudo /opt/lampp/lampp start`.
+
+9. Test the installation: Open a web browser and navigate to http://localhost/. If XAMPP is running correctly, 
+you should see the XAMPP welcome page.
+
+10. Start using XAMPP: XAMPP is now installed and ready to use. You can place your web files in the "htdocs" folder (usually 
+located in the XAMPP installation directory) and access them through the web browser using the localhost address.
+
+
+
+
+
+Steps to Run Transport Management System on Your Computer:
+
+To run the provided project on Visual Studio using XAMPP, follow these steps:
+
+
+Note: Make sure that XAMPP's Apache and MySQL services are running while accessing the project. 
+Also, check the XAMPP control panel for any errors or port conflicts.
+
+
+1. Start XAMPP:
+   - Launch XAMPP from the installed location.
+   - Start the Apache and MySQL services by clicking the "Start" buttons next to them.
+
+2. Set up the project files:
+   - Navigate in the Xamp folder in the `htdocs` folder of your XAMPP installation. 
+     For example, `C:\xampp\htdocs`.
+   - Place project file `driver` inside this directory.
+
+3. Database Configuration:
+   - Open your web browser and navigate to `http://localhost/phpmyadmin`.
+   - Import database named `bus_pass-mgt.sql`.
+
+4. Access the project:
+   - Open Visual Studio and select "Open a Project/Solution."
+   - Navigate to the project directory and open the `bus_pass-mgt.sln` file.
+   - Run the project by clicking on IIS Express button.
+   - The project should open in Visual Studio's web browser or an external browser.
+   
+
+5. Test the project:
+   - You will see the Home page of the Transport Management Website.
+   - Login using Credentials given below.
+   - You should see the login screen in the browser.
+   - Enter a valid bus address and driver mobile number to log in.
+
+For Admin Login:
+   - Login using the given credentials.
+   - Admin can view/manage the students.
+   - Add/ Delete Notices.
+   - Add/ Manage Bus.
+
+For Driver Login:
+   - Login using the given Credentials.
+   - Driver has start/ stop the tracking option.
+
+
+Once logged in, you can start/stop tracking by clicking the corresponding buttons.
+
+
+
+
+Admin Credentials:
+email: admin@gmail.com
+password: aa
+Student Credentials: 
+email: stud@gmail.com
+password: aa
+Driver Credentails:
+Bus Number: UP70AA1111
+Driver Mobile: 9854444444
+Note : By logging in into admin you can see the details of other buses and students and can login the using that details.
